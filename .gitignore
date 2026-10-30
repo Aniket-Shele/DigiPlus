@@ -1,0 +1,22 @@
+# Virtual Environment
+**/venv/
+**/.venv/
+**/env/
+
+# Python cache
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+
+# Environment variables
+**/.env
+**/.env.*
+!**/.env.example
+
+# Node
+**/node_modules/
+**/dist/
+**/.DS_Store
+
+# App logs
+**/app_logs.json
