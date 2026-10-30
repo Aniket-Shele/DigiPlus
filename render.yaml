@@ -25,8 +25,9 @@ services:
     staticPublishPath: dist
     envVars:
       - key: VITE_API_BASE_URL
-        value: https://digiplus-backend.onrender.com/api
+        value: https://digiplus-l4m7.onrender.com/api
     routes:
       - type: rewrite
         source: /*
         destination: /index.html
+
