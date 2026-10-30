@@ -264,3 +264,4 @@ Frontend dashboard will be accessible at: `http://localhost:5173`.
 1. **Authentication**: Implemented as high-fidelity simulated enterprise personas (Manager vs Developer) stored in client state and `localStorage` to allow seamless evaluation of role-based telemetry without requiring external OAuth provider configuration.
 2. **Rate Limits**: Google Gemini API free-tier quotas apply; structured fallbacks prevent application crashes when encountering network or quota thresholds.
 3. **Database Fallback**: In the absence of an active MongoDB Atlas cluster URI, the service gracefully degrades, serving in-memory roster models and returning structured JSON recaps directly to the client.
+

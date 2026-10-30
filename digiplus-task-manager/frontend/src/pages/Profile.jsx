@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from 'react'
 import { Link } from 'react-router-dom'
 import { downloadSummaryAsFile } from '../utils/fileExport'
 
-const API_BASE_URL = 'http://localhost:8000/api'
+import { API_BASE_URL } from '../config'
 
 export default function Profile({ username }) {
   const effectiveUser = username || localStorage.getItem('user_name') || 'David'

@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react'
 
-const API_BASE_URL = 'http://localhost:8000/api'
+import { API_BASE_URL } from '../config'
 
 export default function Logs() {
   const [logs, setLogs] = useState([])

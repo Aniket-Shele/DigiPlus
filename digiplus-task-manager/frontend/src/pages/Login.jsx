@@ -1,7 +1,7 @@
 import { useState, useEffect, useId } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const API_BASE_URL = 'http://localhost:8000/api'
+import { API_BASE_URL } from '../config'
 
 export default function Login({ onLogin }) {
   const developerNameInputId = useId()

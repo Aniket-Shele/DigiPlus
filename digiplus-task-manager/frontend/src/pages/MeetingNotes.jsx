@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback, useId } from 'react'
 import { downloadSummaryAsFile } from '../utils/fileExport'
 
-const API_BASE_URL = 'http://localhost:8000/api'
+import { API_BASE_URL } from '../config'
 
 export default function MeetingNotes({ role, username }) {
   const effectiveUser = username || localStorage.getItem('user_name') || 'Team Member'

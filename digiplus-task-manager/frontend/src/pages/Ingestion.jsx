@@ -1,7 +1,7 @@
 import { useState, useId } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const API_BASE_URL = 'http://localhost:8000/api'
+import { API_BASE_URL } from '../config'
 
 export default function Ingestion({ role, username }) {
   const effectiveUser = username || localStorage.getItem('user_name') || 'David'
